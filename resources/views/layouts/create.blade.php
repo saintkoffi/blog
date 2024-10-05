@@ -9,7 +9,7 @@
 </head>
 <body>
     @extends('master')
-		
+
 @section('numeroTelephone', 'saisir un numero!')
 
 @section('nomPrenom')
@@ -20,7 +20,6 @@
     <div class="col-6">
 <form method="POST" action="{{route('clients.store')}}" >
     @csrf
-    
     <h1>Enregistrez un Client</h1>
     <div class="mb-3">
         <label for="numeroTelephone" class="form-label">Numéro-telephone:</label>

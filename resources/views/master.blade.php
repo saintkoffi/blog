@@ -18,8 +18,7 @@
 
 <body>
 	@include('partials.header')
-<!-- end div .span-6 -->		
-	
+<!-- end div .span-6 -->
 			<div class="span-12 last">
 				<p class="prepend-top append-0">Merci d'avoir acheté mon thème.<br/>
 					Si vous avez des questions qui dépassent la portée de ce fichier d'aide,<br/>
@@ -28,9 +27,9 @@
 			</div>
 		</div><!-- end div .borderTop -->
 		<!-- @include('partials.sidebar') -->
-		
+
         @yield('nomPrenom')
-		
+
         @include('partials.footer')
 	<!-- end div .container -->
 	<div class="container">
@@ -38,7 +37,7 @@
 		<div class="alert alert-success">
 			{{ session('success') }}
 		</div>
-		@endif	
+		@endif
 	</div>
 </body>
 </html>

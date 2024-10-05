@@ -3,17 +3,17 @@
 @section('nomPrenom')
 <h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
 		<p>This template is fully responsive and created with bootstrap4 framework. All the content is within wrapper. The wrapper is containing sidebar wrapper ,topbar header and content wrapper. In content wrapper all part is devided with row and cards. In this template most of the classes are used acording to bootstrap. Here is the general structure.</p>
-		
+
 		<img src="assets/images/htmlstructure.png" alt="HTML Structure"/>
-		
+
 		<hr>
 
 		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
 
-		<p>We are using one CSS file for the template. In the general section of css file I used the codes to reset the generic style of the html. All required styles are included in this file with well commented. According to the comment you can customize the template easily. Here is the basic style sheet structure.</p> 
-		
+		<p>We are using one CSS file for the template. In the general section of css file I used the codes to reset the generic style of the html. All required styles are included in this file with well commented. According to the comment you can customize the template easily. Here is the basic style sheet structure.</p>
+
 		<pre>
-		
+
 	      assets/
 		  css/
 		    ├── bootstrap.min.css
@@ -22,12 +22,12 @@
 		    ├── sidebar-menu.css
 		    ├── app-style.css
         </pre>
-		
+
 		<hr>
-		
+
 		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
 		<p>This theme imports five Javascript files.</p>
-		 
+
 		  <ol>
 		   <li>jquery.min.js</li>
 		   <li>popper.min.js</li>
@@ -35,13 +35,13 @@
 		   <li>sidebar-menu.js</li>
 		   <li>app-script.js</li>
 		  </ol>
-		  
+
 		<hr>
-		
+
 		<h3 id="credits"><strong>D) Sources and Credits</strong> - <a href="#toc">top</a></h3>
-		
+
 		<p>I've used the following images, icons or other files as listed.</p>
-		
+
 		<ul>
 			<li><a href="http://getbootstrap.com/" target="_blank">getbootstrap.com</a></li>
 			<li><a href="http://jquery.com/" target="_blank">jquery.com</a></li>
@@ -64,20 +64,20 @@
 			<li><a href="https://select2.org/" target="_blank">Select2 org</a></li>
 			<li><a href="http://lobianijs.com/site/lobibox" target="_blank">Lobibox Notifications</a></li>
 		</ul>
-		
+
 		<hr>
-		
+
 		<h3 id="credits"><strong>E) Change Log</strong> - <a href="#toc">top</a></h3>
-		
+
 		<p>The Changes are mention below:</p>
-		
+
 		<ul>
 			<li>Updated Latest Bootstrap Version</li>
 		</ul>
-		
+
 		<hr>
-		
-		
-		
+
+
+
 		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
 @endsection
